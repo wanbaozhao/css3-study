@@ -1,0 +1,17 @@
+div {
+  width: 200px;
+  height: 200px;
+  background: red;
+  margin: 20px auto;
+  -webkit-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration:.5s;
+  transition-duration:.5s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  -webkit-transition-delay: .18s;
+  	transition-delay:.18s;
+}
+div:hover {
+  width: 400px;
+}

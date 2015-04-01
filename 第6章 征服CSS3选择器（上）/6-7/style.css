@@ -1,0 +1,20 @@
+ul {
+  border: 1px solid #ccc;
+  list-style: none outside none;
+  width: 220px;
+  margin: 20px auto;
+  padding: 0;
+}
+ul > li {
+  list-style: none outside none;
+  margin:0;
+  padding: 10px;
+  border-bottom: 3px solid #ccc;
+}
+/*ul > li？ {
+  border-bottom: none;
+}*/
+
+ul > li:last-child {
+  border-bottom: none;
+}

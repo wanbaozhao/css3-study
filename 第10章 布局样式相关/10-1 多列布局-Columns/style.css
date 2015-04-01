@@ -1,0 +1,11 @@
+.columns {
+  width: 500px;
+  padding: 5px;
+  border: 1px solid green;
+  margin: 20px auto; 
+  -webkit-columns: 150px 3;
+  -moz-columns: 150px 3;
+  -o-columns:150px 3;
+  -ms-columns: 150px 3;
+  columns: 150px 3;
+}

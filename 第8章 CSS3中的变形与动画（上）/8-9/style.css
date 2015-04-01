@@ -1,0 +1,25 @@
+.wrapper {
+  width: 400px;
+  height: 200px;
+  margin: 20px auto;
+  border: 2px dotted red;
+  position:relative;
+}
+
+.wrapper div {
+  padding: 15px 20px;
+  color: #fff;
+  background-color: orange;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  -webkit-transition: all .5s ease-in .2s;
+  transition: all .5s ease-in .2s;
+}
+
+.wrapper div:hover {
+  background-color: red;
+  border-radius: 10px;
+}

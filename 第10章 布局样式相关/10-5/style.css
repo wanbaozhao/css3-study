@@ -1,0 +1,29 @@
+.columns {
+	padding: 5px;
+	border: 1px solid green;
+	width: 900px;
+	margin: 20px auto;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	-o-column-count: 3;
+	-ms-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 2em;
+	-moz-column-gap: 2em;
+	-o-column-gap: 2em;
+	-ms-column-gap: 2em;
+	column-gap: 2em;
+	/*-webkit-？;
+	-moz-？;
+	-o-？;
+	-ms-？;
+	？;*/
+	  -webkit-column-rule:3px solid #000;
+  -moz-column-rule:3px solid #000;
+  -o-column-rule:3px solid #000;
+  -ms-column-rule:3px solid #000;
+  column-rule:3px solid #000;
+}
+	
+	
+}

@@ -1,0 +1,11 @@
+li {
+	background: green;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+/*li:? {
+	background: orange;
+}*/
+li:only-child {
+	background: orange;
+}

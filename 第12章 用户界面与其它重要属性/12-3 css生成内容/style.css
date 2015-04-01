@@ -1,0 +1,4 @@
+h1:before {
+  content:"我是被插进来的";
+  color: red;
+}

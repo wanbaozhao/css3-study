@@ -1,0 +1,27 @@
+form {
+	margin: 30px;
+}
+div {
+	margin: 10px;
+}
+input {
+	padding: 10px;
+	border: 1px solid orange;
+	background: #fff;
+	border-radius: 5px;
+}
+input[type="submit"] {
+	background: orange;
+	color: #fff;
+}
+/*input[type="submit"] ? {
+	background: #eee;
+	border-color: #eee;
+	color: #ccc;
+}*/
+
+input[type="submit"]:disabled {
+	background: #eee;
+	border-color: #eee;
+	color: #ccc;
+}

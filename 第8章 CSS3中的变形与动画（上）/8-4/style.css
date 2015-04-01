@@ -1,0 +1,32 @@
+.wrapper {
+  padding: 20px;
+  background:orange;
+  color:#fff;
+  position:absolute;
+  top:50%;
+  left:50%;
+  border-radius: 5px;
+  -webkit-transform:translate(-50%,-50%);
+  -moz-transform:translateX(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+
+
+/*.wrapper {
+  width: 200px;
+  height: 200px;
+  border: 2px dotted red;
+  margin: 20px auto;
+}
+.wrapper div {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background: orange;
+  color: #fff;
+  -webkit-transform: translate(50px,100px);
+  -moz-transform:translate(50px,100px);
+  transform: translate(50px,100px);
+}*/
+

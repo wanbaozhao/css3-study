@@ -1,0 +1,9 @@
+textarea{
+ /*  resize: vertical;
+   resize: horizontal;*/
+   /*resize: none;
+*/   
+  /*resize: both; */
+   resize: inherit;
+   
+}

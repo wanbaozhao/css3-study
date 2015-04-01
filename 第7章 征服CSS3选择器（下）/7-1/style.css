@@ -1,0 +1,17 @@
+div {
+	margin: 30px;
+}
+/*input[type="text"] ? {
+	border: 1px solid #f36;
+	box-shadow: 0 0 5px #f36;
+}*/
+
+input[type="text"]:enabled {
+	border: 1px solid #f36;
+	box-shadow: 0 0 5px #f36;
+}
+
+
+input[type="text"]:disabled {
+	box-shadow: none;
+}

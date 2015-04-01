@@ -1,0 +1,18 @@
+.columns {
+  padding: 5px;
+  border: 1px solid green;
+  width: 900px;
+  margin: 20px auto;
+  
+  column-width:200px;
+  column-width:200px;
+  column-width:200px;
+  column-width:200px;
+  column-width:200px;
+  
+  -webkit-column-count:3;
+  -moz-column-count:3;
+  -o-column-count:3;
+  -ms-column-count:3;
+  column-count:3;
+}

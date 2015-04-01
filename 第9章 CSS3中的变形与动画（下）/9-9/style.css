@@ -1,0 +1,35 @@
+@keyframes redToBlue {
+	from {
+		background: red;
+	}
+	to {
+		background: blue;
+	}
+}
+
+@-webkit-keyframes redToBlue {
+	from {
+		background: red;
+	}
+	to {
+		background: blue;
+	}
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin: 20px auto;
+	animation-name: redToBlue;
+	animation-duration: 20s;
+	animation-timing-function: ease;
+	animation-delay: 1s;
+	/*?: forwards;*/
+	
+	-webkit-animation-name: redToBlue;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-fill-mode: forwards;
+}

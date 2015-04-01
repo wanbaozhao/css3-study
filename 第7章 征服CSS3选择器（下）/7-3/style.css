@@ -1,0 +1,48 @@
+form {
+	border: 1px solid #ccc;
+	padding: 20px;
+	width: 300px;
+	margin: 30px auto;
+}
+.wrapper {
+	margin-bottom: 10px;
+}
+.box {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	position: relative;
+	background: orange;
+	vertical-align: middle;
+	border-radius: 100%;
+}
+.box input {
+	opacity: 0;
+	positon: absolute;
+	top: 0;
+	left: 0;
+	wdith: 100%;
+	height: 100%;
+}
+.box span {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	position: absolute;
+	background: #fff;
+	top: 50%;
+	left: 50%;
+	margin: -5px 0 0 -5px;
+}
+input[type="radio"] + span {
+	opacity: 0;
+}
+/*input[type="radio"] ? + span {
+	opacity: 1;
+}*/
+
+input[type="radio"]:checked + span {
+	opacity: 1;
+}

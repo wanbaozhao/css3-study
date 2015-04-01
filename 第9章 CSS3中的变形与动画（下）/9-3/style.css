@@ -1,0 +1,38 @@
+
+@-webkit-keyframes changeColor {
+	from {
+		background: red;
+	}
+	to {
+		background: green;
+	}
+}
+
+@keyframes changeColor {
+	from {
+		background: red;
+	}
+	to {
+		background: green;
+	}
+}
+div {
+	width: 200px;
+	height: 200px;
+	background: red;
+	text-align: center;
+	margin: 20px auto;
+	line-height: 200px;
+	color: #fff;
+}
+div:hover {
+	animation-name: changeColor;
+	animation-duration: 5s;
+	animation-timing-function: ease-out;
+	animation-delay: .1s;
+	
+	-webkit-animation-name: changeColor;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-delay: .1s;
+}

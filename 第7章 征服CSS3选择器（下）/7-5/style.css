@@ -1,0 +1,40 @@
+form {
+	width: 300px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin: 50px auto;
+}
+form > div {
+	margin-bottom: 10px;
+}
+input[type="text"] {
+	border: 1px solid orange;
+	padding: 5px;
+	background: #fff;
+	border-radius: 5px;
+}
+input[type="text"]:-moz-read-only {
+	border-color: #ccc;
+}
+input[type="text"]:read-only {
+	border-color: #ccc;
+}
+textarea:-moz-read-only {
+	border: 1px solid #ccc;
+	height: 50px;
+	resize: none;
+	background: #eee;
+}
+/*textarea ? {
+	border: 1px solid #ccc;
+	height: 50px;
+	resize: none;
+	background: #eee;
+}*/
+
+textarea :read-only {
+	border: 1px solid #ccc;
+	height: 50px;
+	resize: none;
+	background: #eee;
+}

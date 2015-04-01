@@ -1,0 +1,15 @@
+/*? {
+	background: orange;
+	color: white;
+}*/
+
+::selection {
+	background: orange;
+	color: white;
+}
+
+
+::-moz-selection {
+	background: orange;
+	color: white;
+}

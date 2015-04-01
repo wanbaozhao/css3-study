@@ -1,0 +1,52 @@
+@keyframes changecolor {
+	0% {
+		background: red;
+	}
+	20% {
+		background: blue;
+	}
+	40% {
+		background: orange;
+	}
+	60% {
+		background: green;
+	}
+	80% {
+		background: yellow;
+	}
+	100% {
+		background: red;
+	}
+}
+
+@-webkit-keyframes changecolor {
+	0% {
+		background: red;
+	}
+	20% {
+		background: blue;
+	}
+	40% {
+		background: orange;
+	}
+	60% {
+		background: green;
+	}
+	80% {
+		background: yellow;
+	}
+	100% {
+		background: red;
+	}
+}
+div {
+	width: 300px;
+	height: 200px;
+	background: red;
+	color: #fff;
+	margin: 20px auto;
+}
+div:hover {
+	animation: changecolor 5s ease-out .2s;
+	-webkit-animation: changecolor 5s ease-out .2s;
+}

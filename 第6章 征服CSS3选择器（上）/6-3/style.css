@@ -1,0 +1,11 @@
+div {
+	padding: 10px 20px;
+	min-height: 50px;
+}
+/*div ?([id="footer"]) {
+	background: orange;
+}*/
+
+div:not([id="footer"]) {
+	background: orange;
+}

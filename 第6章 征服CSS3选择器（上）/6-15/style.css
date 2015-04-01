@@ -1,0 +1,14 @@
+.wrapper {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 500px;
+  margin: 10px auto;
+}
+
+/*.wrapper p:?{
+  background: orange;
+}*/
+
+.wrapper p:only-of-type{
+  background: orange;
+}

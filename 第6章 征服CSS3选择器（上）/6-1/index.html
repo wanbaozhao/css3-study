@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>属性选择器</title>
+		<style>
+		
+			 a[class^="column"]{
+			 	background: #800400;
+			 }
+			 
+			 a[href$="doc"]{
+			 	background: #008000;
+			 }
+			 
+			 a[title*="box"]{
+			 	background: #0000FF;
+			 }
+		</style>
+	</head>
+
+	<body>
+		<a href="##" class="columnNews">我的背景想变成红色</a>
+		<a href="##" class="columnVideo">我的背景想变成红色</a>
+		<a href="##" class="columnAboutUs">我的背景想变成红色</a>
+		<br/>
+		<a href="1.doc">我的背景想变成绿色</a>
+		<a href="2.doc">我的背景想变成绿色</a>
+		<br/>
+		<a href="##" title="this is a box">我的背景想变成蓝色</a>
+		<a href="##" title="box1">我的背景想变成蓝色</a>
+		<a href="##" title="there is two boxs">我的背景想变成蓝色</a>
+	</body>
+
+</html>

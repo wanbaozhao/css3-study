@@ -1,0 +1,9 @@
+/*? p {
+  background: orange;
+  color: #fff;
+}*/
+
+:target p {
+  background: orange;
+  color: #fff;
+}

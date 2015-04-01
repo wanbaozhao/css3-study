@@ -1,0 +1,20 @@
+
+div {
+  width: 300px;
+  height: 200px;
+  background-color: orange;
+  margin: 20px auto;
+  -webkit-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-delay: .2s;
+  transition-delay: .2s;
+}
+
+div:hover {
+  height: 100px;
+}
+
