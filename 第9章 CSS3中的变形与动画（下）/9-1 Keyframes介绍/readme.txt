@@ -60,7 +60,6 @@ div:hover{
   animation: wobble 5s ease .1s;
 }
  
- 
 任务:
 
 在CSS编辑器的第1行创建一个动画名叫“changecolor”，在“0%”时背景色为red,在20%时背景色为blue，在40%背景色为orange，在60%背景色为green，在80%时背景色yellow，在100%处时背景色为red。
